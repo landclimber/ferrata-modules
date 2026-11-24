@@ -1,10 +1,12 @@
 # Ferrata modules
 
-Ferrata's Logos module catalog: `logos-repo.json` (identity, the rolling `index` release in
-`indexUrl`, the signer the releases are signed by in `trustedSigners`), the modules as git
-submodules under `submodules/`, and the release workflows that build, sign, verify and publish each one with
+Ferrata's Logos module catalog: `logos-repo.json` (identity, the index in `indexUrl`, the signer the
+releases are signed by in `trustedSigners`), the modules as git submodules under `submodules/`, the
+release workflows that build, sign, verify and publish each one with
 [`logos-co/logos-modules-release-action`](https://github.com/logos-co/logos-modules-release-action)
-(pinned to a commit). How it is published, and each lambda-prize release-integrity rule it meets:
+(pinned to a commit), and `index/index.json`, the list of every published package that
+`rebuild-index.yml` commits after each release (the packages themselves are in the immutable
+`<module>-v<version>` releases). How it is published, and each lambda-prize release-integrity rule it meets:
 `modules/catalog/RELEASE.md` in the source repository (https://github.com/rainbowpuffpuff/ferrata).
 
 The modules are prototype, unaudited, not for production.
