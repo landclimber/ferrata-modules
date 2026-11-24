@@ -1,0 +1,18 @@
+[submodule "submodules/ferrata_attest_module"]
+	path = submodules/ferrata_attest_module
+	url = https://github.com/landclimber/ferrata_attest_module.git
+[submodule "submodules/ferrata_attestor_module"]
+	path = submodules/ferrata_attestor_module
+	url = https://github.com/landclimber/ferrata_attestor_module.git
+[submodule "submodules/ferrata_bridge_module"]
+	path = submodules/ferrata_bridge_module
+	url = https://github.com/landclimber/ferrata_bridge_module.git
+[submodule "submodules/ferrata_monitor_module"]
+	path = submodules/ferrata_monitor_module
+	url = https://github.com/landclimber/ferrata_monitor_module.git
+[submodule "submodules/ferrata_relayer_module"]
+	path = submodules/ferrata_relayer_module
+	url = https://github.com/landclimber/ferrata_relayer_module.git
+[submodule "submodules/ferrata_updater_module"]
+	path = submodules/ferrata_updater_module
+	url = https://github.com/landclimber/ferrata_updater_module.git
