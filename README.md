@@ -38,5 +38,6 @@ package, or one signed by a key the keyring lacks, installs with a warning. So, 
     logosctl catalog refresh
     logosctl search ferrata
     logosctl install ferrata_attest_module -y
+    logosctl install ferrata_bridge_ui -y        # the bridge's mini-app (a ui module, for Basecamp)
 
 The same URL works in the package-manager UI and with `lgpd`.

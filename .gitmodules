@@ -16,3 +16,6 @@
 [submodule "submodules/ferrata_updater_module"]
 	path = submodules/ferrata_updater_module
 	url = https://github.com/landclimber/ferrata_updater_module.git
+[submodule "submodules/ferrata_bridge_ui"]
+	path = submodules/ferrata_bridge_ui
+	url = https://github.com/landclimber/ferrata_bridge_ui.git
